@@ -2,10 +2,11 @@
 
 Hey! Welcome to my portfolio.
 
-It's coming up tomorrow.
+I have kept it simple and still made it look beautiful.
 
-For now, I know:
-1. JavaScript
-1. Node.JS
-1. CHALK
-1. Repl.it
+The portfolio includes:
+-what I know
+-what projects I have made
+-what blogs I have written
+
+I will keep it updated.
