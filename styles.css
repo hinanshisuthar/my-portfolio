@@ -174,3 +174,13 @@ hr {
 .link-social{
     padding: 0.5rem;
 }
+
+.link-primary:hover{
+    background-color: #E11D48;
+}
+
+.link-secondary:hover{
+    background-color: #9CA3AF;
+    color: black;
+    border-color: #9CA3AF;
+}
