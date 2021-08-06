@@ -138,7 +138,7 @@ hr {
 .footer .footer-header{
     font-weight: bold;
     font-size: 1.2rem;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .footer ul{
@@ -167,3 +167,10 @@ hr {
     color: black;
 }
 
+.link-social:hover{
+    filter: invert(100%);
+}
+
+.link-social{
+    padding: 0.5rem;
+}
