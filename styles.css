@@ -3,7 +3,8 @@
 :root {
     --primary-color: #BE123C;
     --grey-color: #4B5563;
-    --off-white:#E5E7EB;
+    --off-white:#FFF7ED;
+    --option-one:#F5F5F4;
 }
 
 html {
@@ -103,6 +104,7 @@ hr {
 .hero .hero-heading {
     color: var(--grey-color);
     text-align: center;
+    font-size: 1.7rem;
 }
 
 .section{
@@ -110,7 +112,15 @@ hr {
     padding-bottom: 20px;
     padding-left: 32px;
     padding-right: 32px;
+    width: 600px;
+    margin: auto;
+    border-radius: 1rem;
 }
+
+/* .section-one{
+    border: solid #D1D5DB 1px;
+    border-color:#9CA3AF;
+} */
 
 .section h1 {
     text-align: center;
@@ -119,7 +129,8 @@ hr {
 }
 
 .bg-section{
-    background-color: var(--off-white);
+    background-color: var(--option-one);
+    border-bottom: #4B5563 solid 1px;
 }
 
 .footer{
