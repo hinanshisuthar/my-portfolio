@@ -3,17 +3,20 @@
 :root {
     --primary-color: #BE123C;
     --grey-color: #4B5563;
-    --off-white:#FFF7ED;
-    --option-one:#F5F5F4;
+    --off-white: #FFF7ED;
+    --option-one: #F5F5F4;
 }
 
 html {
     overflow: scroll;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
 }
 
 
@@ -51,7 +54,6 @@ body {
 
 hr {
     margin: 2rem 0rem;
-    ;
 }
 
 .no-bullet {
@@ -107,7 +109,7 @@ hr {
     font-size: 1.7rem;
 }
 
-.section{
+.section {
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 32px;
@@ -128,12 +130,12 @@ hr {
     font-size: 1.5rem;
 }
 
-.bg-section{
+.bg-section {
     background-color: var(--option-one);
     border-bottom: #4B5563 solid 1px;
 }
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 1rem;
     text-align: center;
@@ -141,31 +143,31 @@ hr {
     border-top-right-radius: 1rem;
 }
 
-.footer .link{
+.footer .link {
     color: white;
     padding: 1.5rem;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: 1.2rem;
     padding: 1rem;
 }
 
-.footer ul{
-    padding-inline-start:0px
+.footer ul {
+    padding-inline-start: 0px
 }
 
-.para{
-    text-align:justify;
+.para {
+    text-align: justify;
 }
 
-.link-container{
+.link-container {
     text-align: center;
     padding: 1rem;
 }
 
-.section .date{
+.section .date {
     text-align: right;
 }
 
@@ -174,23 +176,23 @@ hr {
     margin-block-end: 0em;
 }
 
-.list-links:hover{
+.list-links:hover {
     color: black;
 }
 
-.link-social:hover{
+.link-social:hover {
     filter: invert(100%);
 }
 
-.link-social{
+.link-social {
     padding: 0.5rem;
 }
 
-.link-primary:hover{
+.link-primary:hover {
     background-color: #E11D48;
 }
 
-.link-secondary:hover{
+.link-secondary:hover {
     background-color: #9CA3AF;
     color: black;
     border-color: #9CA3AF;
