@@ -47,6 +47,7 @@ body {
     border-radius: 0.5rem;
     color: white;
     display: inline-block;
+    margin-bottom: 5px;
 }
 
 .link-secondary {
@@ -54,6 +55,7 @@ body {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     display: inline-block;
+    margin-bottom: 5px;
 }
 
 hr {
@@ -66,7 +68,7 @@ hr {
 
 .list-item-inline {
     display: inline-flex;
-    padding: 0.5rem;
+    
 }
 
 .navigation {
@@ -76,6 +78,8 @@ hr {
     border-bottom-left-radius: 1rem;
     max-width: 100%;
     height: auto;
+    overflow: hidden;
+    flex-direction: row;
 }
 
 .list-links {
@@ -84,9 +88,18 @@ hr {
     padding: 1rem;
 }
 
+.navigation a{
+    float: right;
+}
+
+header {
+    display: inline;
+}
+
 .unordered {
     text-align: right;
     margin: 0;
+    padding-inline-start: 0px;
 }
 
 .navigation .nav-brand {
@@ -149,6 +162,8 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    width: 100%;
+    height: auto;
 }
 
 .footer .link {
@@ -208,4 +223,9 @@ hr {
 
 .social-links{
     margin: 0;
+}
+
+.img{
+    width: 25px;
+    height: 25px;
 }
